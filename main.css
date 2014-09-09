@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/*ol, ul {
+	list-style: none;
+}
+*/
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/** { 
+  outline: 1px solid black;
+}*/
+
+html { 
+background: url("images/45s_Wallpaper2.jpg") center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#recordplayer{
+	width:500px;
+	height:750px;
+	background: url("images/recordimage3.jpg") no-repeat;
+	background-size: 100%;
+    margin:auto;
+}
+
+#record-quiz{
+	width:250px;
+	height:50px;
+	font: 35px/1.2'Pacifico', cursive;
+	color: red;
+	text-align: center;
+	margin-left:125px;
+	padding-top: 35px
+}
+
+.earned-score{
+	width:80px;
+	height:80px;
+	margin-top:20px;
+	margin-left:25px;
+	font: 17px/1.2 'Pacifico', cursive;
+	color:white;
+	text-align: center;
+	border-color: white;
+	border-radius: 80px;
+	border-width: 3px;
+	border-style: none;
+	padding:20px;
+}
+
+#recordNum{
+	font: 30px/1.5 'Pacifico', cursive;
+	color:red;
+}
+
+#recordNumbf{
+	display:none;
+}
+
+#recordNumaf{
+	display:none;
+}
+
+.records-score{
+	width:150px;
+	height:50px;
+	margin-top:8px;
+	margin-left:25px;
+}
+
+.record{
+	width:30%;	
+	margin:auto;
+	display:none;
+}
+.record2{
+	width:30%;
+	margin:auto;
+	display:none;
+}
+.record3{
+	width:30%;
+	margin:auto;
+	display:none;
+}
+.record4{
+	width:30%;
+	margin:auto;
+	display:none;
+}
+.record5{
+	width:30%;
+	margin:auto;
+	display:none;
+}
+#record{
+	width:100%;
+}
+
+
+#question_wrapper{
+	width:390px;
+	min-height:100px;
+	margin-left:45px;
+	margin-top:230px;
+}
+
+#answer_holder{
+	width:150px;
+	margin-top:0px;
+	margin-left:80px;
+	font:17px/1.0 'Pacifico', cursive;
+}
+.questionNum{
+	font:17px/1.0 'Pacifico', cursive;
+	color: red;
+	text-align: center;
+	width:100%;
+	margin-top:5px;
+	/*padding:5px;*/
+}
+
+.question{
+	font:15px/1.0 'Alegreya Sans', sans-serif;
+	color: #001A66;
+	text-align: center;
+	width:100%;
+	margin-top:5px;
+	/*padding:5px;*/
+}
+
+
+#button_holder{
+	width:100px;
+	height:60px;
+	margin-top:-50px;
+	margin-left:290px;
+}
+
+#submit{
+	font: 13px/1.2 'Pacifico', cursive;
+	background-color: red;
+	color:white;
+	border-radius: 6px;
+	border-width: 2px;
+	border-color: white;
+	width:100px;
+}
+#submit:hover{
+	color:red;
+	background-color:white;
+	border-color:red;
+	border-width: 2px;
+}
+#retry_button{
+	font: 12px/1.2 'Pacifico', cursive;
+	background-color:#287dbe;
+	color:white;
+	border-radius: 4px;
+	border-width: 2px;
+	border-color: white;
+	width:70px;
+	margin-left:30px;
+	margin-top:5px;
+}
+#retry_button:hover{
+	color:#B8D4FF;
+}
+
+#fact_holder{
+	width:388px;
+	/*min-height:50px;*/
+	margin-top:10px;
+	margin-left:45px;
+	background-color:#B8D4FF;
+	border-radius: 10px;
+	color:#001A66;
+	font: 14px/1.0 'Alegreya Sans', sans-serif;
+	padding:5px;
+	display: none;
+}
+
+#factNum{
+	font: 12px/1.0 'Pacifico', cursive;
+
+}
+
+#last_question_fact{
+	display:inline;
+
+}
+
+#basicModal{
+            display:none;
+            font: 17px/1.2 Futura;
+            text-align: center;
+            background-color: white;
+            color:red;
+}     
+#msgimg{
+	width:180px;
+	margin-left:5px;
+}
+
+#basicModal2{
+    display:none;
+    font: 17px/1.2 Futura;
+    background-color: white;
+    color:red;
+}     
+#correct{
+	height:100%;
+	margin-left:5px;
+	float:right;
+}
+
+#basicModal3{
+    display:none;
+    font: 17px/1.2 Futura;
+    background-color: white;
+    color:red;
+}  
+#incorrect{
+	height:100%;
+	margin-right:5px;
+	float:left;
+}   
+
+.ui-widget-header{
+  font: 17px/1.2 'Pacifico', cursive;
+  text-align: center;
+}

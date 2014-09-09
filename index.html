@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Record Quiz App</title>
+	<link rel="stylesheet" href="main.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:700' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css">
+	<!-- include the jquery library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+             
+    <!-- include the jquery ui library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+</head>
+<body>
+	<div id="recordplayer">
+		 <div id="record-quiz">"Record Quiz"</div>
+
+		 <div class="earned-score">
+		 <p id="recordNumbf">You earned<br></p>
+		 <p id="recordNum"></p>
+		 <p id="recordNumaf"> of 5 Records!</p>
+		 </div>
+
+		 <div class = "records-score">
+		 	<div class="record"><img id= "record" src="images/record.png"> </div>
+		 	<div class="record2"> <img id= "record" src="images/record.png"> </div>
+		 	<div class="record3"> <img id= "record" src="images/record.png"> </div>
+		 	<div class="record4"> <img id= "record" src="images/record.png"> </div>
+		 	<div class="record5"> <img id= "record" src="images/record.png"> </div>
+		 </div>
+
+		 <div id = "question_wrapper">
+		 	<Span class = "questionNum">Question 1 /5 : </span></Span><br>
+		 	<Span class = "question">When was the first record “phonograph” invented?</span>
+		 	<div id="answer_holder">
+				<input type="radio" name="option" class="option" value="0"><span class="answer">1877</span><br>
+				<input type="radio" name="option" class="option" value="1"><span class="answer">1912</span><br>
+				<input type="radio" name="option" class="option" value="2"><span class="answer">1928</span><br>				
+			</div>
+			<div id="button_holder">
+			 	<input type="button" id="submit" value="Submit Answer"></button>
+			</div>
+
+
+			
+			<h2 id="test_status"></h2>
+		 </div>
+
+			<div id = "fact_holder"> 
+				<span id="factNum"></span>
+				<span id="last_question_fact"></span>
+			</div>
+	</div>
+	<div id="basicModal">
+	Please select one answer
+	<img id="msgimg" src="images/vintage14.jpg">
+	</div>
+
+	<div id="basicModal2">
+	<img id="correct" src="images/correct.jpg">
+	<p>You will earn a record every time you are correct.</p>
+	</div>
+
+	<div id="basicModal3">
+	<img id="incorrect" src="images/incorrect.jpg">
+	<p>You did not earn any record this time.</p>
+	</div>
+
+</body>
+</html>
