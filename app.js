@@ -45,9 +45,6 @@ $(document).ready(function() {
     var numberCorrect = 0;
     var currentQuestion = 0;
 
-    $( "#submit" ).click(function(){
-
-    });
     
     $("#question_wrapper").on("click", "#submit", function () {
     	var IsChecked = $('.option').is(':checked');
