@@ -27,7 +27,7 @@ $(document).ready(function() {
         {
         qNum : "Question 4 /5 : ",
         question: "From the mid-1950s through the 1960s, in the U.S. the common home 'record player' or 'stereo' would typically have had these features other than ",
-        choices: ["Tall spindle", "Skip", "Speed changer"],
+        choices: ["tall spindle", "skip", "speed changer"],
         correct : 1,
         factNum:"Q4 fact: ",
         fact: "3 Speed changer (78, 45, 33 1⁄3 rpm), a tall spindle that would hold several records and automatically drop a new record on top of the previous one when it had finished playing, and some kind of adapter for playing the 45s with their larger center hole."
